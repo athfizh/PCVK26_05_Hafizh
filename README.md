@@ -9,7 +9,7 @@
 ╚═╝      ╚═════╝   ╚═══╝  ╚═╝  ╚═╝
 ```
 
-# 👁️ Pengolahan Citra dan Visi Komputer
+# Pengolahan Citra dan Visi Komputer
 
 ### *Digital Image Processing & Computer Vision — Course Repository*
 
