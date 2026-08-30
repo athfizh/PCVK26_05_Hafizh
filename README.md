@@ -70,10 +70,9 @@
 ```text
 PCVK26_05_Hafizh/
 │
-├── 📁 Modul 1/                         # Pengantar Citra Digital & Tools
-│   ├── Praktikum_D2_Pengolahan_Citra.ipynb
+├── 📁 Modul 1/                        
+│   ├── P1_D2.ipynb
 │   └── 
-│
 ├── 📁 Modul 2/                         
 ├── 📁 Modul 3/                         
 ├── 📁 Modul 4/                         
