@@ -72,9 +72,10 @@ PCVK26_05_Hafizh/
 │
 ├── 📁 Modul 1/                        
 │   ├── P1_D2.ipynb
-│   └── 
-├── 📁 Modul 2/                         
-├── 📁 Modul 3/                         
+├── 📁 Modul 2/
+│   ├── P2_TugasPraktikum_05.ipynb                        
+├── 📁 Modul 3/
+│   ├── P3_TugasPraktikum_05.ipynb                         
 ├── 📁 Modul 4/                         
 ├── 📁 Modul 5/                         
 └── 📁 Modul 6/                         
@@ -87,7 +88,8 @@ PCVK26_05_Hafizh/
 | No | Topik Praktikum | Direktori | Status |
 |:--:|----------------|:---------:|:------:|
 | 1 | Pengantar Citra Digital: Representasi & Library Dasar | [📁 Modul 1](./Modul%201) | ✅ Selesai |
-| 2 | 
+| 2 | Representasi dan Karakteristik Citra Digital | [📁 Modul 2](./Modul%202) | ✅ Selesai |
+| 3 | Operasi Citra Sederhana | [📁 Modul 3](./Modul%203) | ✅ Selesai |
 
 ---
 
