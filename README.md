@@ -96,15 +96,15 @@ PCVK26_05_Hafizh/
 
 | No | Topik Praktikum | Direktori | Status |
 |:--:|----------------|:---------:|:------:|
-| 1 | Pengantar Citra Digital: Representasi & Library Dasar | [📁 Modul 1](./Modul%201) | ✅ Selesai |
-| 2 | Representasi dan Karakteristik Citra Digital | [📁 Modul 2](./Modul%202) | ✅ Selesai |
-| 3 | Operasi Citra Sederhana | [📁 Modul 3](./Modul%203) | ✅ Selesai |
+| 1 | Pengantar Citra Digital: Representasi & Library Dasar | [📁 Modul 1](./Modul%201) | Selesai |
+| 2 | Representasi dan Karakteristik Citra Digital | [📁 Modul 2](./Modul%202) | Selesai |
+| 3 | Operasi Citra Sederhana | [📁 Modul 3](./Modul%203) | Selesai |
 | 4 | *Tidak ada tugas praktikum* | — | — |
-| 5 | Histogram, Histogram Equalization, dan Dithering | [📁 Modul 5](./Modul%205) | ✅ Selesai |
-| 6 | Spasial Filter (Smoothing & Sharpening) | [📁 Modul 6](./Modul%206) | ✅ Selesai |
-| 7 | Segmentasi Citra | [📁 Modul 7](./Modul%207) | ✅ Selesai |
+| 5 | Histogram, Histogram Equalization, dan Dithering | [📁 Modul 5](./Modul%205) | Selesai |
+| 6 | Spasial Filter (Smoothing & Sharpening) | [📁 Modul 6](./Modul%206) | Selesai |
+| 7 | Segmentasi Citra | [📁 Modul 7](./Modul%207) | Selesai |
 | 8 | *Tidak ada tugas praktikum* | — | — |
-| 9 | Morfologi Citra (Erosi, Dilasi, Opening, Closing, Top-Hat, Black-Hat, Skeleton, Thinning) | [📁 Modul 9](./Modul%209) | ✅ Selesai |
+| 9 | Morfologi Citra (Erosi, Dilasi, Opening, Closing, Top-Hat, Black-Hat, Skeleton, Thinning) | [📁 Modul 9](./Modul%209) | Selesai |
 
 ---
 
