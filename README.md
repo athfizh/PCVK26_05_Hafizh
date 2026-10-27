@@ -71,16 +71,25 @@
 PCVK26_05_Hafizh/
 │
 ├── 📁 Modul 1/                        
-│   ├── P1_D2.ipynb
 ├── 📁 Modul 2/
-│   ├── P2_TugasPraktikum_05.ipynb                        
+│   └── P2_TugasPraktikum_05.ipynb                        
 ├── 📁 Modul 3/
-│   ├── P3_TugasPraktikum_05.ipynb                         
-├── 📁 Modul 4/                         
-├── 📁 Modul 5/                         
-└── 📁 Modul 6/                         
+│   └── P3_TugasPraktikum_05.ipynb                         
+├── 📁 Modul 5/
+│   └── P5_TugasPraktikum_05.ipynb                         
+├── 📁 Modul 6/
+│   └── P6_TugasPraktikum_05.ipynb                         
+├── 📁 Modul 7/
+│   └── P7_TugasPraktikum_05.ipynb                         
+├── 📁 Modul 9/
+│   └── P9_TugasPraktikum_05.ipynb                         
+│
+└── README.md
 
-```                     
+```
+
+> Catatan: Modul 4 dan Modul 8 tidak berisi tugas praktikum (tidak ada direktori), sehingga tidak dicantumkan.
+
 ---
 
 ## 📋 Daftar Modul Praktikum
@@ -90,6 +99,36 @@ PCVK26_05_Hafizh/
 | 1 | Pengantar Citra Digital: Representasi & Library Dasar | [📁 Modul 1](./Modul%201) | ✅ Selesai |
 | 2 | Representasi dan Karakteristik Citra Digital | [📁 Modul 2](./Modul%202) | ✅ Selesai |
 | 3 | Operasi Citra Sederhana | [📁 Modul 3](./Modul%203) | ✅ Selesai |
+| 4 | *Tidak ada tugas praktikum* | — | — |
+| 5 | Histogram, Histogram Equalization, dan Dithering | [📁 Modul 5](./Modul%205) | ✅ Selesai |
+| 6 | Spasial Filter (Smoothing & Sharpening) | [📁 Modul 6](./Modul%206) | ✅ Selesai |
+| 7 | Segmentasi Citra | [📁 Modul 7](./Modul%207) | ✅ Selesai |
+| 8 | *Tidak ada tugas praktikum* | — | — |
+| 9 | Morfologi Citra (Erosi, Dilasi, Opening, Closing, Top-Hat, Black-Hat, Skeleton, Thinning) | [📁 Modul 9](./Modul%209) | ✅ Selesai |
+
+---
+
+## 🧪 Ringkasan Modul 9 — Morfologi
+
+Praktikum terakhir menguji operasi morfologi secara manual (tanpa library) dan membandingkannya dengan OpenCV:
+
+| Langkah | Materi | Pembanding |
+|:--:|--------|-----------|
+| 3 | Dilasi manual SED square 5×5 | Hasil = `cv2.dilate` (selisih 0 di bagian dalam) |
+| 4 | Dilasi `cv2.dilate` square 3×3 | — |
+| 5 | Erosi manual SE square 5×5 | Hasil = `cv2.erode` (selisih 0 di bagian dalam) |
+| 6 | Erosi `cv2.erode` square 5×5 | — |
+| 7 | Opening manual & `cv2.morphologyEx` square 3×3 | Manual vs Library |
+| 8 | Closing manual & `cv2.morphologyEx` square 3×3 | Manual vs Library |
+| 9 | Dilasi SED cross 3×3 dan 5×5 | — |
+| 10 | Dilasi SED circular 3×3 dan 5×5 | — |
+| 11 | Erosi SE rectangle 3×5 dan 5×7 | — |
+| 12 | Erosi SE line vertikal 3 dan 5 | — |
+| 13 | Transformasi Top-Hat SE 3×3 | Citra kitten + Plat Nomor |
+| 14 | Transformasi Black-Hat | Citra kitten + Plat Nomor |
+| 15 | Skeleton citra biner (`threshold_triangle`) | Citra lily + Plat Nomor |
+| 16 | Skeleton citra inversi (`img < threshold`) | Dibandingkan Langkah 15 |
+| 17 | Thinning (`morphology.thin`) | Dibandingkan `skeletonize` |
 
 ---
 
@@ -117,6 +156,7 @@ Praktikum pada repositori ini dirancang agar dapat dieksekusi langsung di cloud 
 2. Klik tombol badge **Open in Colab** di bagian atas file notebook (atau buka melalui Google Colab dengan memasukkan URL repo ini).
 3. Pastikan runtime Colab terhubung (*Connected*).
 4. Jalankan sel kode secara berurutan dengan menekan `Shift + Enter` atau tombol **Run Cell**.
+5. Untuk notebook yang membaca citra dari Drive, mount folder `MyDrive` lalu sesuaikan variabel `BASE` dengan lokasi folder citra.
 
 ---
 
@@ -126,9 +166,9 @@ Melalui mata kuliah ini, mahasiswa diharapkan mampu:
 
 - [x] Memahami representasi digital citra, sistem koordinat, matriks piksel, dan ruang warna (RGB, BGR, HSV, Grayscale).
 - [x] Menggunakan library visi komputer standar industri seperti **OpenCV** dan **NumPy** untuk manipulasi matriks citra.
-- [ ] Menerapkan teknik perbaikan citra, penajaman, perataan histogram, dan reduksi derau (*noise filtering*).
-- [ ] Mengimplementasikan transformasi geometri dan morfologi matematis.
-- [ ] Menganalisis dan mengekstraksi fitur visual untuk segmentasi serta deteksi objek otomatis.
+- [x] Menerapkan teknik perbaikan citra, penajaman, perataan histogram, dan reduksi derau (*noise filtering*).
+- [x] Mengimplementasikan transformasi geometri dan morfologi matematis.
+- [x] Menganalisis dan mengekstraksi fitur visual untuk segmentasi serta deteksi objek otomatis.
 
 ---
 
